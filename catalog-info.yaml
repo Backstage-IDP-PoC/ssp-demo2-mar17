@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ssp-demo2-mar17
+  description: Python app that displays time - named ssp-demo2-mar17
+  annotations:
+    github.com/project-slug: Backstage-IDP-PoC/ssp-demo2-mar17
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name:  Backstage_PoC/ssp-demo2-mar17/main
+    argocd/app-name: ssp-demo2-mar17
+    argocd/instance-name: main
+ 
+spec:
+  type: service
+  owner: development
+
+  lifecycle: experimental
